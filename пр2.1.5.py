@@ -76,13 +76,7 @@ def export_library(books):
         for book in books:
             for key, value in book.items():
                 file.write(f"{key}: {value}\n")
-    '''
-    with open(txt_name, "r") as file:
-        books_txt = file.readlines()
-        for i in books_txt:
-            print(i)
-    '''
-
+    
 books = [{"id" : 1,
          "title" : "Мастер и Маргарита",
          "author" : "Булгаков",
@@ -132,6 +126,7 @@ while True:
         break
     else:
         print("такого действия нет.")
+
 
 
 
