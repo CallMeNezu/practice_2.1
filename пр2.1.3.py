@@ -1,5 +1,4 @@
 import csv
-from random import choice
 
 FILENAME = 'products.csv'
 
@@ -87,3 +86,4 @@ while True:
         break
     else:
         print("такого действия нет")
+
